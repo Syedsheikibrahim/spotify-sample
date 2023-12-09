@@ -1,0 +1,169 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: blACK;
+    color:white;
+    
+}
+/*header*/
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:10px 18px;
+    position:sticky;
+    top:0;
+}
+header .logo{
+margin-left:30px;
+font-family:sans-serif;
+font-weight:bold;
+width:40px;
+height:40px;
+background-color:orangered;
+padding:15px;
+border-radius:50%;
+color:black
+}
+header nav ul{
+    list-style-type:none;
+    display:flex;
+
+}
+header nav ul li{
+   margin-right:20PX;
+   border:1px solid black;
+   padding-right:10px;
+   padding-left:10px;
+   padding-top:10px;
+   padding-bottom:10px;
+   border-radius:20px;
+   color:white;
+   background-color:#121212;  
+}
+ul li:hover{
+background-color:green;
+}
+/*section*/
+section{
+   padding-top:30px;
+   padding-left:15px;
+   display:flex;
+}
+.left-side{
+    margin-bottom:10px;
+}
+.left-side{
+width:35%;
+}
+section .left-side .one {
+    display:flex;
+    align-items: center;
+}
+section .left-side .two{
+    display:flex;
+    align-items: center;
+}
+section .left-side .three {
+    display:flex;
+    align-items: center;
+}
+section .left-side .four {
+    display:flex;
+    align-items: center;
+}
+section .left-side .one{
+    margin-bottom:30px;
+    border:2px solid #121212;
+    border-radius:5px;
+}
+section .left-side .two{
+    margin-bottom:30px;
+    border:2px solid #121212;
+    border-radius:5px;
+}
+section .left-side .three{
+    margin-bottom:30px;
+    border:2px solid #121212;
+    border-radius:5px;
+}
+section .left-side .four{
+    margin-bottom:30px;
+    border:2px solid  #121212;
+    border-radius:5px;
+}
+ section footer{
+    padding-left:40px;
+ }
+footer .right-side .one{
+    display:flex;
+    align-items: center;
+    border:2px solid #121212;
+    margin-bottom:30px;
+    border-radius:5px;
+}
+footer .right-side .two{
+    display:flex;
+    align-items: center;
+    border:2px solid #121212;
+    margin-bottom:30px;
+    border-radius:5px;
+}
+footer .right-side .three{
+    display:flex;
+    align-items: center;
+    border:2px solid #121212;
+    margin-bottom:30px;
+    border-radius:5px;
+}
+footer .right-side .four{
+    display:flex;
+    align-items: center;
+    border:2px solid #121212;
+    margin-bottom:30px;
+    border-radius:5px;
+}
+header .post{
+    display:flex; 
+}
+header .post img{
+margin-right:10px;
+}
+span{
+    color:grey;
+}
+h5{
+    font-size:35px;
+    margin-top:20px;
+    margin-left:30px;
+    color:grey;
+}
+.slider .image img{
+    object-fit: contain;
+    padding:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ nav ul li :hover{
+    background-color:green;
+ }
+
+
+
+
+
+
+
